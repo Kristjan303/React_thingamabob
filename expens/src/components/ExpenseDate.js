@@ -1,3 +1,4 @@
+import './ExpenseDate.css';
 function ExpenseItem(props) {
 
     const day = props.expenseDate.toLocaleString('en-US', {day: '2-digit'})
@@ -5,11 +6,11 @@ function ExpenseItem(props) {
     const year = props.expenseDate.getFullYear()
 
     return (
-            <div>
-                <div>{month}</div>
-                <div>{year}</div>
-                <div>{day}</div>
-            </div>
+        <div className='expense-date'>
+            <div className='expense-date-month'>{month}</div>
+            <div className='expense-date-year'>{year}</div>
+            <div className='expense-date-day'>{day}</div>
+        </div>
     );
 }
 
