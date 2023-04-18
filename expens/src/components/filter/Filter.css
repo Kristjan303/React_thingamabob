@@ -1,0 +1,18 @@
+.filter__text{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.dropdown{
+    width: 15%;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #000;
+    background-color: rgba(145, 187, 7, 0.68);
+    border: 1px solid #000;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
